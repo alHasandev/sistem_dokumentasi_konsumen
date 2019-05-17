@@ -17,4 +17,9 @@ Route::get('/', function () {
 });
 
 Route::get('/create-customer', 'CustomerController@create');
+Route::get('/get-customer', 'CustomerController@get');
+Route::get('/edit-customer/{id}', ['as' => 'edit', 'uses' => 'CustomerController@edit']);
+Route::get('/delete-customer/{id}', ['as' => 'delete', 'uses' => 'CustomerController@delete']);
+Route::get('/product', 'ProductController@index');
 Route::post('/create-customer', 'CustomerController@create_post');
+Route::post('/edit-customer/update', 'CustomerController@update');

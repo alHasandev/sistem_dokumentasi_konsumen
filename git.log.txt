@@ -1,0 +1,11 @@
+[33mcommit 680607a58342a4c83b2a48ace38eb2dfc45088f8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: alHasandev <alhasan99dev@gmail.com>
+Date:   Fri May 17 17:52:55 2019 +0800
+
+    menambahkan fillable property di model Customer
+
+[33mcommit 0a89c457b51e9bffa80978e781c176c07cf3b1ae[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: alHasandev <alhasan99dev@gmail.com>
+Date:   Thu May 16 01:45:16 2019 +0800
+
+    membuat project laravel dari pintaar.com kang afiq
